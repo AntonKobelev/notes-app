@@ -1,16 +1,18 @@
+import { v4 as uuidv4 } from "uuid";
+
 const notesData = [
   {
-    id: 1,
+    id: uuidv4(),
     title: "Заметка 1",
     text: "Это текст первой заметки.",
   },
   {
-    id: 2,
+    id: uuidv4(),
     title: "Заметка 2",
     text: "Это текст второй заметки.",
   },
   {
-    id: 3,
+    id: uuidv4(),
     title: "Заметка 3",
     text: "Это текст третьей заметки.",
   },
